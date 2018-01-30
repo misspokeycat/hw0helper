@@ -12,7 +12,7 @@ if [[ ! "$DIR" || ! -d "$DIR" ]]; then
   exit 1
 fi
 
-# Download the tarball for the knapsack program
+# Download the tarball for the knapsack program (I mirrored it here because SCPing a file twice is annoying)
 wget https://github.com/pokemonmegaman/hw0helper/raw/master/knapsack.tar.gz
 
 # Untar the file
