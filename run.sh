@@ -86,8 +86,8 @@ uptime >> test_results.log
 echo "" >> test_results.log
 
 # /proc/version has many things, including the Linux kernel version, the OS, and the GCC version.
-echo "Linux version / OS version / GCC version"
-cat /proc/version
+echo "Linux version / OS version / GCC version" >> test_results.log
+cat /proc/version >> test_results.log
 
 # Display the results at the end
 less test_results.log
