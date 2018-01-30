@@ -83,6 +83,12 @@ echo "Current load averages" >> test_results.log
 # I coulndn't be bothered to "sed"ify this, but all the info it gives is pretty useful anyways.
 uptime >> test_results.log
 
+echo "" >> test_results.log
+
+# /proc/version has many things, including the Linux kernel version, the OS, and the GCC version.
+echo "Linux version / OS version / GCC version"
+cat /proc/version
+
 # Display the results at the end
 less test_results.log
 
