@@ -94,3 +94,7 @@ less test_results.log
 
 # And cleanup our temp dir.
 rm -r $DIR
+
+# Hey, you made it to the end!  If you are actually reading this, cool trick: you can run this really easily, just do
+# curl https://raw.githubusercontent.com/pokemonmegaman/hw0helper/master/run.sh | bash
+# on your desired machine.
